@@ -23,10 +23,6 @@ const Footer = () => {
                     </li>
                 </ul>
             </nav>
-            <div className="copyright float-right">
-                &copy; 2020, Developed with <i className="material-icons">favorite</i> by
-                <a href="https://github.com/shaheemMPM" target="_blank" rel="noopener noreferrer" style={{color: '#007D7D', fontWeight: 'bolder'}}> Mohammed Shaheem P</a>
-            </div>
             </div>
         </footer>
     );
