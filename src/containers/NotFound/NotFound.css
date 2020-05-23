@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css");
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+.NotFoundBody {
+  background-color: #313942;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.NotFoundBody a {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.NotFoundBody main {
+  -webkit-box-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  height: 100vh;
+  -webkit-box-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.NotFoundBody h1 {
+  color: #e7ebf2;
+  font-size: 12.5rem;
+  letter-spacing: .10em;
+  margin: .025em 0;
+  text-shadow: 0.05em 0.05em 0 rgba(0, 0, 0, 0.25);
+  white-space: nowrap;
+}
+@media (max-width: 30rem) {
+  .NotFoundBody h1 {
+    font-size: 8.5rem;
+  }
+}
+.NotFoundBody h1 > span {
+  -webkit-animation: spooky 2s alternate infinite linear;
+          animation: spooky 2s alternate infinite linear;
+  color: #528cce;
+  display: inline-block;
+}
+
+.NotFoundBody h2 {
+  color: #e7ebf2;
+  margin-bottom: .40em;
+}
+
+.NotFoundBody p {
+  color: #ccc;
+  margin-top: 0;
+}
+
+@-webkit-keyframes spooky {
+  from {
+    -webkit-transform: translatey(0.15em) scaley(0.95);
+            transform: translatey(0.15em) scaley(0.95);
+  }
+  to {
+    -webkit-transform: translatey(-0.15em);
+            transform: translatey(-0.15em);
+  }
+}
+
+@keyframes spooky {
+  from {
+    -webkit-transform: translatey(0.15em) scaley(0.95);
+            transform: translatey(0.15em) scaley(0.95);
+  }
+  to {
+    -webkit-transform: translatey(-0.15em);
+            transform: translatey(-0.15em);
+  }
+}
+
