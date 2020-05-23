@@ -1,1 +1,1 @@
-# BISPAGES - Admin
+# React JS - Firebase - Admin Panel (Front Panel)
